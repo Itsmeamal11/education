@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+  }
+  
+  /* Courses Section */
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+  }
